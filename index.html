@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+          body{  
+                 background-image:linear-gradient(to top,cornflowerblue,rgb(246, 210, 198),white);
+          } 
+
+          .column{
+                   height:150px;
+                   width:100%;
+                   position: fixed;
+                   top:4px;
+                   right:4px;
+                   background-color:rgba(0,0,0,0.5);
+                   backdrop-filter:saturate(180%) blur(10px);
+                }
+
+          .column-img img{
+                            height:130px;
+                            width:130px;
+                            margin:10px;
+                            border-radius: 50%;
+          }
+
+          .column-name{
+                        position: absolute;
+                        top:40px;
+                        right:40px;
+          }
+
+          .column-name ul{
+                           list-style-type:none;
+                           display: flex;
+          }
+
+          .column-name a{
+                           font-size:40px;
+                           text-decoration: none;
+                           color: white;
+                           margin-left:40px;
+          }
+
+          .background-img img{
+                               height:930px;
+                               width:2500px;
+                               margin-top:150px;
+          }
+
+          .employes{
+                     height:70px;
+                     width:100%;
+                     border: solid;
+                     border-radius:10px;
+          }
+          .job{
+                 height:70px;
+                 width:50%;
+                 background-color:blueviolet;
+                 display: flex;
+          }
+
+          .job-name a{
+                     color:white;
+                     text-decoration: none;
+                     font-size:60px;
+                     margin:0px 0px 0px 520px;
+          }
+
+          .internship a{
+                         color: black;
+                         text-decoration: none;
+                         font-size: 60px;
+                         margin:0px 0px 0px 1000px;
+          }
+
+          .jobs{
+                 /*   background-color:aliceblue;  */
+                 background-image:url("image6.jpg");
+                  height:600px;
+                  width:1500px;
+                  border:solid;
+                  margin:350px 0px 250px 500px;  
+                  font-size:30px;
+             }
+
+            .place li{
+                       
+                       font-size:40px;
+                       margin:18px 0px 0px 50px;
+            } 
+
+            .intern{
+                     /*   background-color:aliceblue;  */
+                     background-image:url("image6.jpg");
+                        height:600px;
+                        width:1500px;
+                        border:solid;
+                        margin:350px 0px 250px 500px;  
+                        font-size:30px;
+            }
+
+            .intern-item li{
+                             font-size:40px;
+                             margin:18px 0px 0px 50px;
+            }
+
+            .employers{
+                        /*  background-color:aliceblue;  */
+                        background-image:url("image6.jpg");
+                        height:1000px;
+                        width:1500px;
+                        border: solid;
+                        margin:160px 0px 10px 500px;
+                        font-size:30px;
+            }
+
+            .empl-details ul{
+                              list-style-type:none;
+                              
+            }
+
+            .freshers{
+                       /* background-color:aliceblue;  */
+                       background-image:url("image6.jpg");
+                       height:1000px;
+                       width:1500px;
+                       border: solid;
+                       margin: 160px 0px 90px 500px;
+                       font-size:30px;
+            }
+
+            .fresh-details ul{
+                            list-style-type: none;
+            }
+
+            .about{
+                     /* background-color:aliceblue; */
+                     background-image:url("image6.jpg");
+                    height:800px;
+                    width:1500px;
+                    border:solid;
+                    margin:260px 0px 150px 500px;  
+                    font-size:30px;
+            }
+
+            .about-details pre{
+                                 font-size:30px;
+                                 margin:40px;
+            }
+            
+            .blog{
+                   /* background-color:aliceblue; */
+                   background-image:url("image6.jpg");
+                   height:650px;
+                   width: 1500px;
+                   border: solid;
+                   margin:340px 0px 200px 500px;  
+                   font-size:30px;
+            }
+
+            .contact{
+                      /*  background-color:aliceblue; */
+                      background-image:url("image6.jpg");
+                      height:600px;
+                      width:1500px;
+                      border:solid;
+                      margin:300px 0px 200px 500px;
+                      font-size:30px;
+                      
+            }
+
+            .contact-datails img{
+                                    height:80px;
+                                    width:80px;
+                                    margin:10px 0px 0px 80px;
+            }
+
+            .contact-datails p{
+                                 margin:10px 0px 15px 50px; 
+                                 text-decoration: underline;
+            }
+ 
+            .background-img h1{
+                                 position: absolute;
+                                 top:450px;
+                                 left:310px;
+                                 font-size:60px;
+                                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                 color:saddlebrown;
+                                 text-shadow:1px 2px 3px gold;
+            }
+
+            .background-img h2{
+                                 position: absolute;
+                                 top:250px;
+                                 left:200px;
+                                 font-size:60px;
+                                 font-family:Arial, Helvetica, sans-serif;
+                                 color:orangered;
+                                 text-shadow:2px 4px 6px green;
+            }
+
+            h1{
+                 color:teal;
+                 text-shadow:2px 4px 6px blueviolet;
+            }
+
+           
+            
+    </style>
+</head>
+<body>
+    <div class="column">
+            <div class="column-img">
+                <img src="image1.png" alt="">
+             </div>
+
+             <div class="column-name">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#three">Employers</a></li>
+                        <li><a href="#four">Freshers</a></li>
+                        <li><a href="#five">About</a></li>
+                        <li><a href="#six">Blog</a></li>
+                        <li><a href="#seven">Contact</a></li>
+                        <li><a href="file:///C:/Users/krish/OneDrive/Documents/project/gaming/form1.html" target="_blank">Sign in</a></li>
+                    </ul>
+             </div>
+    </div>
+
+    <div class="background">
+        <div class="background-img">
+            <img src="image2.jpg" alt="">
+            
+            <h2>Your Job Zone</h2>
+            <h1>Your Dream <br>Job is Waiting</h1>
+        </div>
+    </div>
+
+    <!-- employment starts -->
+     <div class="employes">
+    <div class="job">
+        <div class="job-name">
+                <a href="#one">Jobs</a>
+        </div>
+        <div class="internship">
+               <a href="#two">Internship</a>
+        </div>
+    </div>
+    </div>
+   <!-- employment ends -->
+
+   <!-- employe job discription -->
+
+   <hr id="one">
+    <div class="jobs">
+        <h1 align="center">Trending Jobs</h1>
+           <div class="place">
+            <ul>
+                     <li>IT Software Engineer</li>
+                     <li>Sales/Marketing Executive</li>
+                     <li>Engineer(core Non-IT)</li>
+                     <li>BPO/Telecaller</li>
+                     <li>Customer Service/Tech Support</li>
+                     <li>Design/Animation</li>
+                     <li>HR/Admin</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr id="two">
+    <div class="intern">
+            <h1 align="center">Top Internship Location</h1>
+        <div class="intern-item">
+            <ul>
+                <li>Internship Jobs IN Bangalore</li>
+                <li>Internship Jobs IN Chennai</li>
+                <li>Internship Jobs IN Kolkata</li>
+                <li>Internship Jobs IN Noida</li>
+                <li>Internship Jobs IN Delhi</li>
+                <li>Internship Jobs IN Hydrabad</li>
+                <li>Internship Jobs IN Mumbi</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- employe job discription -->
+    
+    <!-- employers starts-->
+
+    <hr id="three">
+    <div class="employers">
+           <h1 align="center">Employers</h1>
+        <div class="empl-details">
+                <ul>
+                    <li>1. Okda Solutions
+                        <ul>
+                            <li>-Designation:Full Stack Developer,Python</li>
+                            <li>-Work Experience:4-7yrs</li>
+                            <li>-LOC:Bangalore</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>2. Prime Infosoft
+                         <ul>
+                            <li>-Designation:Magneto Developer-eCommerce</li>
+                            <li>-work Experience:4-8yrs</li>
+                            <li>-LOC:Bangalore,Mumbi,Kolkata</li>
+                         </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>3. Aero Business Developer
+                          <ul>
+                               <li>-Designation:Wordpress Website Developer</li>
+                               <li>-Work Experience:1-3yrs</li>
+                               <li>-LOC:Bangalore</li>
+                          </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>4. Yethi Consulting
+                          <ul>
+                               <li>-Designation:Data and Business Analyst</li>
+                               <li>-Work Experience:5-6yrs</li>
+                               <li>-LOC:Bangalore,Mumbi</li>
+                          </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>5. Manpower Group Service
+                          <ul>
+                               <li>-Designation:Java Developer</li>
+                               <li>-Work Experience:5-8yrs</li>
+                               <li>-LOC:Bangalore,Mumbi</li>
+                          </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <!-- employers ends -->
+
+    <!-- freshers starts -->
+
+    <hr id="four">
+    <div class="freshers">
+        <h1 align="center">Freshers</h1>
+     <div class="fresh-details">
+             <ul>
+                 <li>1. Nexus Technies
+                     <ul>
+                         <li>-Designation:business Developer</li>
+                         <li>-Work Experience:0-1yrs</li>
+                         <li>-LOC:Bangalore</li>
+                     </ul>
+                 </li>
+             </ul>
+
+             <ul>
+                 <li>2. Mathworks
+                      <ul>
+                         <li>-Designation:Web Developer</li>
+                         <li>-work Experience:0-1yrs</li>
+                         <li>-LOC:Bangalore</li>
+                      </ul>
+                 </li>
+             </ul>
+
+             <ul>
+                 <li>3. Smart Technologies
+                       <ul>
+                            <li>-Designation:Java Developer</li>
+                            <li>-Work Experience:0-3yrs</li>
+                            <li>-LOC:Bangalore,Pune</li>
+                       </ul>
+                 </li>
+             </ul>
+
+             <ul>
+                 <li>4. Tata Consultant Service
+                       <ul>
+                            <li>-Designation:Dotnet Developer</li>
+                            <li>-Work Experience:0-2yrs</li>
+                            <li>-LOC:Bangalore</li>
+                       </ul>
+                 </li>
+             </ul>
+
+             <ul>
+                 <li>5. Nexus Techies
+                       <ul>
+                            <li>-Designation:Business Developer</li>
+                            <li>-Work Experience:0-1yrs</li>
+                            <li>-LOC:Bangalore</li>
+                       </ul>
+                 </li>
+             </ul>
+     </div>
+ </div>
+    <!-- freshers ends -->
+
+    <!-- about starts -->
+
+    <hr id="five">
+    <div class="about">
+               <h1 align="center">About</h1>
+        <div class="about-details">
+               <pre><b> VISION:</b>
+     Provide Meaningful Livelihoods To The 258 Mn Blue Collar Of Indis. 
+
+<b> WE ARE WORKINDIA INDIA'S LARGEST BLUE AND GRAY-COLLAR JOB PORTAL: </b>
+        A technology based recruitment marketplace for blue and gray collar hiring with 
+a singular purpose to provide meaning full livelyhood to the 250 millions blue color 
+workersof india enabling 30 mn seekers and 100k businesses to get connected early month. 
+we have built a requirement ecosystem that eliminates middlemen fraudulent jobs, and 
+vulgar job,ensuring genuine employees and employers.
+ 
+<b> IMPACT:</b>
+        - Thrust by 2.6cr Indians for finding meaningful employement.
+        - catering to the Critical hiring needs of over 15 lakhs SMBs and multiple large 
+          corporates.
+        - Empowering 1 lakh Indians monthly by helping find relavent jobs.
+        - Enabling 3Mn+ Interview calls a month.
+               </pre>
+        </div>
+    </div>
+    <!-- about ends -->
+
+    <!-- blog stars -->
+
+    <hr id="six">
+    <div class="blog">
+               <h2 align="center">Blog</h2>
+        <div class="blog-details">
+                <pre>
+     -Hiring for a skill starts with outlining what sucess looks like in a role within 
+ anorganization,then determining what soft skills and competencies measure up to that 
+ sucess.in this Haver Chief dats science officer frida polli will discusshow companies 
+ can employe skills based hiring to expand and diversify their candidates pool while 
+ finding candidates that better fit their openroles gaining a competitve edge in hiring 
+ in the process.
+     -Despite the commotion over a modern “war for talent,” today's supposed labor 
+ shortage is actually  self-created. In reality, the underlying problem is matching, 
+ not talent shortage. Frida Polli will explain how by employing skills-based hiring 
+ in place of hiring for experience, organizations can debunk the war for talent while 
+ expanding their candidate pool, identifying the right people for the right job based 
+ on needed competencies, and diversifying their workforce by evaluating a more diverse 
+ range of talent.
+                </pre>
+        </div>
+    </div>
+    <!-- blog ends -->
+
+    <!-- contact starts -->
+
+       <hr id="seven">
+       <div class="contact">
+               <h2 align="center">Contact Us</h2>
+            <div class="contact-datails"> 
+              <a href="https://goo.gl/maps/Hd9mTKVvzLCsCQgcA" target="_blank"><img src="image3.jpg" alt=""></a> <p>No-30 3rd floor Electronic city bangalore Karnataka 560102</p>
+
+                <img src="image4.png" alt=""><p>0802347546</p>
+
+                <img src="image5.png" alt=""><p>help@worin.in</p>
+            </div>
+       </div>
+    <!-- contact ends -->
+    
+
+
+</body>
+</html>
